@@ -1,0 +1,1 @@
+import "./AppRegistration.effect.js"

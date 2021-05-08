@@ -1,0 +1,26 @@
+{
+  "name": "uni-to-do-list",
+  "version": "1.0.0",
+  "description": "A to-do list made with AngularJs for university.",
+  "main": "Main.effect.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cBridges851/uni-to-do-list.git"
+  },
+  "keywords": [
+    "angularjs",
+    "to-do"
+  ],
+  "author": "Christa Bridges",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cBridges851/uni-to-do-list/issues"
+  },
+  "homepage": "https://github.com/cBridges851/uni-to-do-list#readme",
+  "dependencies": {
+    "angular": "^1.8.2"
+  }
+}
