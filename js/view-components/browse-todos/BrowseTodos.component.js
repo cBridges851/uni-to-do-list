@@ -4,12 +4,12 @@ class BrowseTodosComponent {
             {
                 "task": "Example task 1",
                 "module": "Introduction to programming",
-                "completed": false
+                "complete": false
             },
             {
                 "task": "Example task 2",
                 "module": "Introduction to programming",
-                "completed": false
+                "complete": false
             }
         ];
     }

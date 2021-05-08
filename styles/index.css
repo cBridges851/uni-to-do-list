@@ -1,0 +1,8 @@
+body {
+    padding: 5px;
+}
+
+list-item {
+    display: flex;
+    justify-content: space-between;
+}

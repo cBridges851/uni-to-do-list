@@ -1,7 +1,5 @@
 <div ng-repeat="todo in $ctrl.todos">
-    <div ng-if="todo.completed == false">
-        <p>{{ todo.task }}</p>
-        <p>{{ todo.module }}</p>
-        <input type="checkbox"></input>
+    <div ng-if="todo.complete == false">
+        <list-item task="todo.task" module="todo.module" complete="todo.complete"></list-item>
     </div>
 </div>
