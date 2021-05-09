@@ -1,0 +1,13 @@
+<h2>Add To Dos</h2>
+<form ng-submit="$ctrl.add()">
+    <label>Task:</label>
+    <input type="text" ng-model="$ctrl.task"></input>
+    <label>Module:</label>
+    <select ng-model="$ctrl.module">
+        <option 
+            ng-repeat="module in $ctrl.modules">{{ module }}</option>
+    </select>
+    <button>Add!</button>
+    Todos:
+    {{ $scope.todos }}
+</form>
