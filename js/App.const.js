@@ -8,6 +8,6 @@ app.config(["$routeProvider", function($routeProvider) {
     .otherwise({
         redirectTo: "/browse-todos"
     })
-}])
+}]);
 
 export { app };
