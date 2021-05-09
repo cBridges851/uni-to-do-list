@@ -1,6 +1,7 @@
 class NavigationComponent {
     constructor() {
         this.sections = [
+            "View"
         ];
     }
 }

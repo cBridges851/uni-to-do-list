@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/cBridges851/uni-to-do-list#readme",
   "dependencies": {
-    "angular": "^1.8.2"
+    "angular": "^1.8.2",
+    "angular-route": "^1.8.2"
   }
 }
