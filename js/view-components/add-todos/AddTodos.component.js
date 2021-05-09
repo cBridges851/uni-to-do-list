@@ -5,7 +5,9 @@ class AddTodosComponent {
         this.modules = [
             "Academic Skills",
             "Introduction To Programming"
-        ]
+        ];
+        this.task = "";
+        this.module = this.modules[0];
     }
     add() {
         sessionService.addTodos({
@@ -13,6 +15,8 @@ class AddTodosComponent {
             "module": this.module,
             "complete": false
         });
+        this.output = `Todo For ${this.module} Created at ${Date()}`;
+        this.task = "";
     }
 }
 
