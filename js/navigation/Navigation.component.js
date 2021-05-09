@@ -2,6 +2,10 @@ class NavigationComponent {
     constructor() {
         this.sections = [
             {
+                "name": "Add",
+                "url": "#!/add-todos"
+            },
+            {
                 "name": "View",
                 "url": "#!/browse-todos"
             }
