@@ -1,7 +1,10 @@
 class NavigationComponent {
     constructor() {
         this.sections = [
-            "View"
+            {
+                "name": "View",
+                "url": "#!/browse-todos"
+            }
         ];
     }
 }
