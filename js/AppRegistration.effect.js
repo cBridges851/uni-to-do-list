@@ -5,9 +5,11 @@ import { navigationButtonComponentDefinition } from "./navigation-button/Navigat
 import { browseTodosComponentDefintion } from "./view-components/browse-todos/BrowseTodos.component.js";
 import { listItemComponentDefinition } from "./list-item/ListItem.component.js";
 import { addTodosComponentDefinition } from "./view-components/add-todos/AddTodos.component.js";
+import { completedTodosComponentDefinition } from "./view-components/completed-todos/CompletedTodos.component.js";
 
 app.component("navigationButton", navigationButtonComponentDefinition);
 app.component("navigation", navigationComponentDefinition);
 app.component("browseTodos", browseTodosComponentDefintion);
 app.component("listItem", listItemComponentDefinition);
 app.component("addTodos", addTodosComponentDefinition);
+app.component("completedTodos", completedTodosComponentDefinition);

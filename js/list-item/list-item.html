@@ -1,3 +1,5 @@
 <p>{{ $ctrl.task }}</p>
 <p>{{ $ctrl.module }}</p>
-<input ng-click="$ctrl.completeTodo()" type="checkbox"></input>
+<div ng-if="$ctrl.complete == false">
+    <input ng-click="$ctrl.completeTodo()" type="checkbox"></input>
+</div>

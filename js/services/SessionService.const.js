@@ -11,6 +11,11 @@ class SessionService {
                 "module": "Introduction to programming",
                 "complete": false
             },
+            {
+                "task": "Example completed task",
+                "module": "Introduction to programming",
+                "complete": true
+            }
         ];
     }
 
