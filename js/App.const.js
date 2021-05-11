@@ -8,6 +8,9 @@ app.config(["$routeProvider", function($routeProvider) {
     .when("/add-todos", {
         template: "<add-todos></add-todos>"
     })
+    .when("/completed-todos", {
+        template: "<completed-todos></completed-todos>"
+    })
     .otherwise({
         redirectTo: "/browse-todos"
     })

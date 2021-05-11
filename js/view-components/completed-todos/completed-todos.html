@@ -1,0 +1,6 @@
+<h2>Completed Todos</h2>
+<div ng-repeat="todo in $ctrl.todos">
+    <div ng-if="todo.complete == true">
+        <list-item task="todo.task" module="todo.module" complete="todo.complete"></list-item>
+    </div>
+</div>

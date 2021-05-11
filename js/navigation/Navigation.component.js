@@ -8,6 +8,10 @@ class NavigationComponent {
             {
                 "name": "View",
                 "url": "#!/browse-todos"
+            },
+            {
+                "name": "Completed",
+                "url": "#!/completed-todos"
             }
         ];
     }
