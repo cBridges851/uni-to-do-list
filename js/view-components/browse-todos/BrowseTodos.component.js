@@ -1,17 +1,8 @@
+import { sessionService } from "../../services/SessionService.const.js";
+
 class BrowseTodosComponent {
     constructor() {
-        this.todos = [
-            {
-                "task": "Example task 1",
-                "module": "Introduction to programming",
-                "complete": false
-            },
-            {
-                "task": "Example task 2",
-                "module": "Introduction to programming",
-                "complete": false
-            }
-        ];
+        this.todos = sessionService.getTodos()
     }
 } 
 

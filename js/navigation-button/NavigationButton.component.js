@@ -1,8 +1,6 @@
 class NavigationButtonComponent {
     navigate() {
-        if (this.section === "View") {
-            window.open("#!/browse-todos", "_self")
-        }
+        window.open(this.section.url, "_self");
     }
 }
 
